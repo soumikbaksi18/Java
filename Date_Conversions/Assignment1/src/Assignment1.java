@@ -18,7 +18,7 @@ public class Assignment1 {
 
             System.out.println("Local timestamp:" + inputFormat.format(inputDate));
 
-            long unixTimestamp = inputDate.getTime() / 1000L;
+            long unixTimestamp = inputDate.getTime() ;
             System.out.println("Unix Timestamp:" + unixTimestamp);
 
             SimpleDateFormat utcFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
