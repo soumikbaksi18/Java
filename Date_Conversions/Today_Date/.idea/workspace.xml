@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92e5e4e6-896f-4323-8378-8a43997378ed" name="Changes" comment="" />
+    <list default="true" id="92e5e4e6-896f-4323-8378-8a43997378ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Encryption/Encrypt/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encryption/Encrypt/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bc8UX8qzkVdsbeH2nOYFGWiTXy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +33,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Assignment1.executor": "Run",
     "Application.SimpleDateFormat.executor": "Run",
     "Application.SimpleDateFormatExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Soumik Baksi/OneDrive/Desktop/Java_EffiGo_Practice/Date_Conversions/Today_Date"
   }
 }]]></component>
   <component name="SharedIndexes">
