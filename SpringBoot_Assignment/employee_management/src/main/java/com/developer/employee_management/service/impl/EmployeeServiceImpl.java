@@ -2,10 +2,12 @@ package com.developer.employee_management.service.impl;
 import com.developer.employee_management.entity.EmployeeEntity;
 import com.developer.employee_management.repository.EmployeeRepository;
 import com.developer.employee_management.service.EmployeeService;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepository employeeRepository;
@@ -38,12 +40,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     public void deleteEmployee(Long id) {
         employeeRepository.deleteById(id);
     }
-
-    @Override
-    public EmployeeEntity findBYId(Long id){
-        return null;
-    }
-
 
 
 }

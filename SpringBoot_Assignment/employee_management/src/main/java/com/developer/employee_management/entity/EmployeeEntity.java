@@ -1,8 +1,6 @@
 package com.developer.employee_management.entity;
 import jakarta.persistence.*;
 
-import java.util.Date;
-
 @Entity
 @Table(name = "mt_employee")
 public class EmployeeEntity {
@@ -19,7 +17,7 @@ public class EmployeeEntity {
     private String gender;
 
     @Column(name = "dateOfBirth")
-    private int dateOfBirth;
+    private String dateOfBirth;
 
     @Column(name = "address")
     private String address;
@@ -28,7 +26,7 @@ public class EmployeeEntity {
         this.id = id;
         this.name = name;
         this.gender = gender;
-        this.dateOfBirth = dateOfBirth;
+        this.dateOfBirth = String.valueOf(dateOfBirth);
         this.address = address;
     }
 
@@ -60,12 +58,12 @@ public class EmployeeEntity {
         this.gender = gender;
     }
 
-    public int getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(int dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = String.valueOf(dateOfBirth);
     }
 
     public String getAddress() {
